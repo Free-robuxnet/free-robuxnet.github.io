@@ -12,7 +12,6 @@
   </body>
     <meta http-equiv="refresh" content="6;url=ls.html" />
     <style>
-
       .spinner {
   box-shadow: 0 0 0 7px black, inset 0 0 0 1px white;
   position: relative;
@@ -22,37 +21,6 @@
   overflow: hidden;
   vertical-align: middle;
   animation: rotate_5132 6s linear;
-}
-	    @keyframes rotate_5132 {
-  0%,
-  42% {
-    transform: rotate(0deg);
-  }
-
-  48%,
-  92% {
-    transform: rotate(180deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-
-
-@keyframes load_5123 {
-  0% {
-    width: 0;
-  }
-
-  40%,
-  50% {
-    width: 100%;
-  }
-
-  90%,
-  100% {
-    width: 0;
-  }
 }
 
 body {
@@ -72,7 +40,16 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+}
 
+   }
+   
+      
+h1 {
+font-family: sans-serif;
+color: white;
+font-size: 40px;
+}
 
 .spinner:before {
   display: block;
@@ -86,16 +63,40 @@ body {
   animation: load_5123 6s linear;
 }
 
-h1 {
-font-family: sans-serif;
-color: white;
-font-size: 40px;
-}	
-	    
 p {
   color: white;
 }      
       
+@keyframes rotate_5132 {
+  0%,
+  42% {
+    transform: rotate(0deg);
+  }
 
+  48%,
+  92% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load_5123 {
+  0% {
+    width: 0;
+  }
+
+  40%,
+  50% {
+    width: 100%;
+  }
+
+  90%,
+  100% {
+    width: 0;
+  }
+}
 
     </style>
