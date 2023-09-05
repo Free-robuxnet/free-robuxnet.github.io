@@ -1,11 +1,13 @@
-<center>
+<body>
+  <center>
   <p>placeholder</p>
   <p>placeholder</p>
   <p>placeholder</p>
   <p>placeholder</p>
 <div class="spinner"></div>
   <h1>Loading...</h1>
-  <center>
+  </center>
+  </body>
     <meta http-equiv="refresh" content="6;url=ls.html" />
     <style>
       .spinner {
@@ -19,6 +21,28 @@
   animation: rotate_5132 6s linear;
 }
 
+body {
+	background: linear-gradient(45deg, lime, aqua, blue, aqua);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+   }
+   
+      
 h1 {
   font-family: monospace;
   color: white;
